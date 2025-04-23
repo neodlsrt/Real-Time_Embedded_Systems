@@ -83,7 +83,6 @@ def plot_gantt(schedule):
 
     for job in schedule:
         start = job["start"]
-        end = start + job["execution"]
         label = job["task"]
 
         if label not in colors:
